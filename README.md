@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Lumina App
 
-## Getting Started
+> A science-backed productivity web application designed to help people structure their daily tasks, sustain focus, and build effective habits.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Lumina** is a web-based productivity system built to bridge the gap between setting goals and actually achieving them. Unlike standard to-do apps, Lumina integrates behavioral psychology and cognitive science principles into its core mechanics—offering tools that reduce friction, enhance focus, and sustain long-term motivation without burnout.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔬 Scientific Foundation
 
-## Learn More
+Every feature in Lumina is designed based on empirical research in psychology and neuroscience:
 
-To learn more about Next.js, take a look at the following resources:
+* **Implementation Intentions (*"How can I resolve that?"*)**  
+  Based on [Gollwitzer (1999)](https://www.prospectivepsych.org/sites/default/files/pictures/Gollwitzer_Implementation-intentions-1999.pdf), forming explicit $If \rightarrow Then$ plans drastically improves goal attainment by committing the brain to specific cues and actions.
+* **Balanced & Meaningful Gamification**  
+  Referencing recent research on gamification dynamics ([ArXiv, 2025](https://arxiv.org/pdf/2512.08551)), Lumina avoids shallow reward fatigue. Micro-rewards are designed to reinforce intrinsic motivation rather than create dopamine reliance or indiscriminate distraction.
+* **Flexible Focus Systems**  
+  Incorporating both structured interval methods (Pomodoro) and state-dependent focus models (Flowtime) to respect individual cognitive load and deep work states.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Key Features
 
-## Deploy on Vercel
+### 🎯 Task & Goal Management
+* **Database-Backed Task Manager:** Persisted task state built with scalable APIs ready for future cross-platform/mobile integrations.
+* **Action Planner:** A dedicated tool answering *"How can I resolve that?"* by breaking down obstacles into actionable micro-steps.
+* **Micro-Reward System:** Instant feedback mechanisms upon task completion to reinforce momentum.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ⏳ Focus & Deep Work Tools
+* **Dual Timer Engine:**
+  * **Pomodoro Mode:** Standard structured intervals for quick bursts and preventing mental fatigue.
+  * **Flowtime Mode:** Flexible tracking for uninterrupted deep work sessions.
+* **Ambient Soundscapes:** Integrated Lo-Fi streams, White Noise, and Brown Noise to block external distractions and aid concentration.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🤝 Social & Profile
+* **User Profiles:** Share your activity, consistency streak, and focus metrics with friends or the community.
+
+---
+
+## 🛠 Tech Stack
+
+* **Front-end:** Next.js / React, TypeScript, Tailwind CSS
+* **Back-end & Database:** Node.js, PostgreSQL
