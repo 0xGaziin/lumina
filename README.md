@@ -44,4 +44,4 @@ Every feature in Lumina is designed based on empirical research in psychology an
 ## 🛠 Tech Stack
 
 * **Front-end:** Next.js / React, TypeScript, Tailwind CSS
-* **Back-end & Database:** Node.js, PostgreSQL
+* **Back-end & Database:** Nest.js, PostgreSQL
